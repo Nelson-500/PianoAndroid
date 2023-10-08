@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="sonidoFlauta"
         android:drawableTop="@drawable/flauuu"
         android:text="f" />
 
@@ -21,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
+        android:onClick="sonidoGuitarra"
         android:layout_weight="1"
         android:drawableTop="@drawable/guitarra"
         android:text="g" />
@@ -31,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="sonidoTrompeta"
         android:drawableTop="@drawable/trompe"
         android:text="t" />
 
@@ -40,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
+        android:onClick="sonidoSaxofon"
         android:drawableTop="@drawable/saxooo"
         android:text="s"
         android:textSize="14sp" />
