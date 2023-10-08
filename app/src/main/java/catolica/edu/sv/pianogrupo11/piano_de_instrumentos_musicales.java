@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Toast;
 
 public class piano_de_instrumentos_musicales extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class piano_de_instrumentos_musicales extends AppCompatActivity {
         setContentView(R.layout.activity_piano_de_instrumentos_musicales);
     }
     public void sonidoFlauta(View view) {
+        Toast.makeText(this, "Faluta", Toast.LENGTH_SHORT).show();
         final MediaPlayer sonido = MediaPlayer.create(this, R.raw.flautaa);
         if (sonido.isPlaying()) {
             sonido.stop();
@@ -37,6 +39,7 @@ public class piano_de_instrumentos_musicales extends AppCompatActivity {
     }
 
     public void sonidoGuitarra(View view) {
+        Toast.makeText(this, "Guitarra", Toast.LENGTH_SHORT).show();
         final MediaPlayer sonido = MediaPlayer.create(this, R.raw.guitarraa);
         if (sonido.isPlaying()) {
             sonido.stop();
@@ -59,6 +62,7 @@ public class piano_de_instrumentos_musicales extends AppCompatActivity {
     }
 
     public void sonidoTrompeta(View view) {
+        Toast.makeText(this, "Trompeta", Toast.LENGTH_SHORT).show();
         final MediaPlayer sonido = MediaPlayer.create(this, R.raw.trompetaa);
         if (sonido.isPlaying()) {
             sonido.stop();
@@ -81,6 +85,7 @@ public class piano_de_instrumentos_musicales extends AppCompatActivity {
     }
 
     public void sonidoSaxofon(View view) {
+        Toast.makeText(this, "Saxofon", Toast.LENGTH_SHORT).show();
         final MediaPlayer sonido = MediaPlayer.create(this, R.raw.saxofoon);
         if (sonido.isPlaying()) {
             sonido.stop();
