@@ -7,37 +7,31 @@
     android:background="#03A9F4"
     tools:context=".MainActivity">
 
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:drawableTop="@drawable/perro" />
+        android:src="@drawable/gat" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:drawableTop="@drawable/gato" />
-
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:drawableTop="@drawable/rana" />
+        android:src="@drawable/leeeeeo" />
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
         android:layout_weight="1"
-        android:drawableTop="@drawable/serpiente"
-        android:textSize="14sp" />
+        android:src="@drawable/perro" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/vak" />
 </LinearLayout>
