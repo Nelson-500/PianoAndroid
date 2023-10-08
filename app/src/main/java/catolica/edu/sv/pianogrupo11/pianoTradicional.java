@@ -11,7 +11,7 @@ public class pianoTradicional extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_piano_tradicional);
+        setContentView(R.layout.activity_piano_tradiconal);
     }
     public void NotaDo(View v){
         MediaPlayer mp = MediaPlayer.create(this, R.raw.doo);

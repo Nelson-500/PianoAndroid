@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int i) {
                 if (items[i].equals("Piano Tradicional")){
                     //llamada a la actividad piano tradicional
-                    setContentView(R.layout.activity_piano_tradicional);
+                    setContentView(R.layout.activity_piano_tradiconal);
                 }
                 else if (items[i].equals("Piano Infantil de la Selva")){
                     //llamada a la actividad piano infantil de la selva
