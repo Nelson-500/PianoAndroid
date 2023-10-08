@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_piano_tradiconal);
     }
     public void TipodePiano(View view){
         //cuadro de dialogo selectivo entre piano tradicional, piano infantil de la selva  y piano de instrumentos musicales
