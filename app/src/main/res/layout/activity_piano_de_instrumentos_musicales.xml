@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:drawableTop="@drawable/flauuu" />
+        android:drawableTop="@drawable/flauuu"
+        android:text="f" />
 
     <Button
         android:id="@+id/button10"
@@ -21,7 +22,8 @@
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:layout_weight="1"
-        android:drawableTop="@drawable/guitarra" />
+        android:drawableTop="@drawable/guitarra"
+        android:text="g" />
 
 
     <Button
@@ -29,15 +31,17 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:drawableTop="@drawable/trompe" />
+        android:drawableTop="@drawable/trompe"
+        android:text="t" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
         android:drawableTop="@drawable/saxooo"
+        android:text="s"
         android:textSize="14sp" />
 
 </LinearLayout>
