@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dp"
     android:background="#8AC0EC">
 
     <LinearLayout
@@ -14,7 +15,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingTop="75dp"
             android:src="@drawable/fot" />
 
         <LinearLayout
@@ -29,15 +29,18 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="A CERCA DE:"
-                android:textSize="34sp" />
+                android:textColor="#331010"
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"
+                android:layout_margin="11dp"
                 android:gravity="center_horizontal"
                 android:text="Nelson Alberto López Germán"
+                android:textColor="#0B0808"
                 android:textSize="24sp" />
 
             <TextView
@@ -47,24 +50,27 @@
                 android:layout_margin="11dp"
                 android:gravity="center_horizontal"
                 android:text="Luis Felipe Quezada Quezada"
+                android:textColor="#130C0C"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="15dp"
+                android:layout_margin="11dp"
                 android:gravity="center_horizontal"
                 android:text="Josue Omar Ramirez Osorio"
+                android:textColor="#100C0C"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="25dp"
+                android:layout_margin="11dp"
                 android:gravity="center_horizontal"
                 android:text="Carlos Danie Chinchilla Garcia"
+                android:textColor="#100202"
                 android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
