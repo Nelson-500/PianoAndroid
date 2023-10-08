@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".pianoTradicional">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:onClick="NotaDo"
+        android:text="DO" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:onClick="NotaRe"
+        android:text="RE" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:onClick="NotaMi"
+        android:text="MI" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:onClick="NotaFa"
+        android:text="FA" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="93dp"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:onClick="NotaSol"
+        android:text="SOL"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:onClick="NotaLa"
+        android:text="LA" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:onClick="NotaSi"
+        android:text="SI"
+        android:textSize="14sp" />
+
+</LinearLayout>
