@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#03A9F4"
-    tools:context=".MainActivity">
+    tools:context=".piano_infantil_de_la_selva">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="Gato"
         android:src="@drawable/gat" />
 
     <ImageView
@@ -19,6 +20,7 @@
         android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="Leon"
         android:src="@drawable/leeeeeo" />
 
     <ImageView
@@ -26,6 +28,7 @@
         android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="Perro"
         android:src="@drawable/perro" />
 
     <ImageView
@@ -33,5 +36,6 @@
         android:layout_width="140dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:onClick="Vaca"
         android:src="@drawable/vak" />
 </LinearLayout>
